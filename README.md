@@ -21,13 +21,21 @@ Thesis-Policy-Assessment-QT-EWMA/
 │   ├── __pycache__/         # Python cache (ignore)
 │   ├── eann/                # Manuscript and scripts for EANN conference paper
 │   ├── old/                 # Legacy or deprecated code
-│   ├── quanttree/           # Core QuantTree and QT-EWMA implementation
+│   ├── quanttree/           # # Placeholder: see below for implementation
 │   ├── febagni_scripts.py   # Utility functions (data loaders, common routines)
 │   ├── THESIS-data_sequential_preprocessing.ipynb  
 │   ├── THESIS-QT-EWMA-Policy-1.ipynb  
 │   ├── THESIS-QT-EWMA-Policy-2.ipynb  
 │   └── THESIS-QT-EWMA-Policy-3.ipynb  
 ```
+
+### External QuantTree Implementation
+
+Instead of including the QuantTree source here, this repository points to the official implementation:
+> **QuantTree**  
+> https://github.com/diegocarrera89/quantTree
+
+Clone or install that repo to provide the `quanttree` module required by the notebooks.
 
 ---
 
